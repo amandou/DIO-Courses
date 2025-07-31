@@ -1,0 +1,15 @@
+C:\dev\trilha-net-poo-desafio\bin\Debug\net6.0\DesafioPOO.exe
+C:\dev\trilha-net-poo-desafio\bin\Debug\net6.0\DesafioPOO.deps.json
+C:\dev\trilha-net-poo-desafio\bin\Debug\net6.0\DesafioPOO.runtimeconfig.json
+C:\dev\trilha-net-poo-desafio\bin\Debug\net6.0\DesafioPOO.dll
+C:\dev\trilha-net-poo-desafio\bin\Debug\net6.0\DesafioPOO.pdb
+C:\dev\trilha-net-poo-desafio\obj\Debug\net6.0\DesafioPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\trilha-net-poo-desafio\obj\Debug\net6.0\DesafioPOO.AssemblyInfoInputs.cache
+C:\dev\trilha-net-poo-desafio\obj\Debug\net6.0\DesafioPOO.AssemblyInfo.cs
+C:\dev\trilha-net-poo-desafio\obj\Debug\net6.0\DesafioPOO.csproj.CoreCompileInputs.cache
+C:\dev\trilha-net-poo-desafio\obj\Debug\net6.0\DesafioPOO.sourcelink.json
+C:\dev\trilha-net-poo-desafio\obj\Debug\net6.0\DesafioPOO.dll
+C:\dev\trilha-net-poo-desafio\obj\Debug\net6.0\refint\DesafioPOO.dll
+C:\dev\trilha-net-poo-desafio\obj\Debug\net6.0\DesafioPOO.pdb
+C:\dev\trilha-net-poo-desafio\obj\Debug\net6.0\DesafioPOO.genruntimeconfig.cache
+C:\dev\trilha-net-poo-desafio\obj\Debug\net6.0\ref\DesafioPOO.dll
