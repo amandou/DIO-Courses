@@ -3,11 +3,60 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Hello World</title>
+    <title>Minha Página Incrível</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Hello World rodando com Apache e Docker!</h1>
+
+    <header>
+        <h1>Bem-vindo à Minha Página!</h1>
+        <p>Explorando o poder do Docker + Apache 🚀</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre o Projeto</h2>
+            <p>Este projeto foi criado para mostrar como rodar uma aplicação web simples usando Docker, Apache e HTML.
+                Ele está sendo executado dentro de um container :D
+            </p>
+        </section>
+
+        <section id="galeria">
+            <h2>Galeria</h2>
+            <img src="images/computer_image.jpg" alt="Livros ao lado de um notebook, que mostra um código na tela.">
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 - Desenvolvido com ❤️ e Docker</p>
+    </footer>
+
 </body>
 
 </html>
