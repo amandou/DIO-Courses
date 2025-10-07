@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Stack simples para criar uma instância EC2
+
+Resources:
+  MinhaInstanciaEC2:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t3.micro
+      ImageId: ami-077b630ef539aa0b5
+      Tags:
+        - Key: Name
+          Value: MinhaEC2Simples
