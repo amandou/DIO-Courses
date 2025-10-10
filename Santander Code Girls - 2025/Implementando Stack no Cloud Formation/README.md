@@ -6,20 +6,6 @@ Este projeto tem como objetivo demonstrar a criação de uma stack simples, util
 
 O Amazon CloudFormation é um serviço da AWS, de infrastructure as code(IaC), que permite modelar, provisionar e gerenciar recursos de nuvem de forma automática e segura. É possível definir toda a sua infraestrutura usando arquivos de texto no formato YAML ou JSON.
 
-## Principais Características
-- Infraestrutura como Código (IaC): define sua infraestrutura de forma declarativa.
-- Automatização: provisiona e atualiza recursos automaticamente.
-- Versão Controlada: facilita rastrear mudanças usando sistemas como Git.
-- Gerenciamento completo do ciclo de vida: desde a criação até a exclusão de recursos.
-- Suporte a dependências: entende a ordem correta para criar ou remover recursos.
-
-## Benefícios
-- Padronização: aplica as mesmas configurações em diferentes ambientes (dev, staging, prod).
-- Reprodutibilidade: reproduz ambientes facilmente em diferentes contas/regiões.
-- Redução de Erros Humanos: elimina etapas manuais.
-- Auditoria e Controle: torna as alterações transparentes e rastreáveis.
-- Escalabilidade: facilita o gerenciamento de infraestruturas complexas com centenas de recursos.
-
 ## Stack no AWS Cloud Formation
 
 Uma Stack é uma coleção de recursos AWS que você pode gerenciar como uma única unidade. Com isso, é possível atualizar ou excluir um conjunto inteiro de recursos ao executar ações na stack. Por exemmplo, ao criar uma stack chamada MinhaAplicacaoWeb, que contém uma instância EC2, um Security Group e um Volume EBS. Ao excluir essa stack, todos os recursos relacionados também serão excluídos automaticamente.

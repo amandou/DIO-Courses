@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: Infraestrutura de site estático usando S3
+
+Resources:
+  MeuAlarmeCPU:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmDescription: Alerta de CPU
+      Namespace: AWS/EC2
+      MetricName: CPUUtilization
+      Dimensions:
+        - Name: InstanceId
+          Value: i-xxxxxxxxxxxx  # Substituir pela sua EC2
+      Statistic: Average
+      Period: 300
+      EvaluationPeriods: 1
+      Threshold: 70
+      ComparisonOperator: GreaterThanThreshold
