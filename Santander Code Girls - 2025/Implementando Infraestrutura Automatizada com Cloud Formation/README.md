@@ -1,4 +1,4 @@
-# Introdução ao AWS CloudFormation e Criação de uma Stack Simples
+#  CloudWatch Alarm com AWS CloudFormation
 
 Este projeto cria um **alarme do Amazon CloudWatch** para monitorar o uso de CPU de uma instância EC2, utilizando um template simples em **AWS CloudFormation**.
 Quando a CPU da instância ultrapassar 70% por mais de 5 minutos, o alarme será ativado.
